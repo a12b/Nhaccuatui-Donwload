@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Nhaccuatui Download",
+  "description": "https://github.com/a12b",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://nhaccuatui.com/*",
+        "http://nhaccuatui.com/*"
+      ],
+      "js": [
+        "nhaccuatui.js"
+      ],
+      "run_at": "document_end",
+      "all_frames": false
+    }
+  ]
+}
