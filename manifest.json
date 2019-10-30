@@ -7,7 +7,9 @@
     {
       "matches": [
         "https://nhaccuatui.com/*",
-        "http://nhaccuatui.com/*"
+        "http://nhaccuatui.com/*",
+        "https://www.nhaccuatui.com/*",
+        "http://www.nhaccuatui.com/*"
       ],
       "js": [
         "nhaccuatui.js"
